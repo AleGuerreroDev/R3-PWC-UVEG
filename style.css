@@ -1,0 +1,97 @@
+/* SELECTOR DE ELEMENTO */
+body {
+    background-color: #eef2f5; /* Background general de la página */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    color: #333333; 
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+/* SELECTOR DE ID */
+#contenedor-formulario {
+    background-color: #ffffff; /* Background blanco para el formulario */
+    width: 100%;
+    max-width: 500px;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #d1d5db; 
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #004481; 
+    font-size: 24px; 
+    margin-bottom: 20px;
+}
+
+/* SELECTOR DE ELEMENTO (Labels) */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+/* SELECTOR DE ELEMENTO Y CLASE (Inputs y Textarea) */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    background-color: #f4f7f9; /* Background gris claro para los elementos (campos) */
+    border: 2px solid #cbd5e1; 
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: 14px;
+}
+
+input:focus, textarea:focus {
+    border-color: #004481;
+    background-color: #ffffff; /* Cuando escribes, el fondo se pone blanco */
+    outline: none;
+}
+
+/* SELECTOR DE CLASE */
+.seccion-intereses {
+    background-color: #e6f0fa; /* Background azul claro evidente para esta sección */
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: 1px dashed #004481;
+}
+
+.grupo-checkbox {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.grupo-checkbox label {
+    margin: 0;
+    font-weight: normal;
+}
+
+/* SELECTOR DE ID (Botón) */
+#btn-registrar {
+    width: 100%;
+    background-color: #004481; /* Background oscuro para el botón */
+    color: white;
+    padding: 12px;
+    margin-top: 25px;
+    border: none; 
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid #003366; 
+}
+
+#btn-registrar:hover {
+    background-color: #003366;
+}
